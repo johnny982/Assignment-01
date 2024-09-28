@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio: About Me</title>
+</head>
+
+
+
+<body>
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header>
+            <h1>J.D.</h1>
+            
+            <!-- Navigation Bar -->
+            <nav id="nav">
+                <ul>
+                    <li><a class="navbutton" href="index.html">Home</a></li>
+                    <li><a class="navbutton" href="about.html">About Me</a></li>
+                    <li><a class="navbutton" href="project.html">Projects</a></li>
+                    <li><a class="navbutton" href="contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+        <section id="about">
+            
+            <!-- Introduction -->
+            <div id="aboutintro">
+                <img src="image.png" alt="A picture of me" id="photo">
+                <div id="abouttext">
+                    <h2>About Me</h2>
+                    <p>Hello, I'm Johnathan Donnelly, a second year Networking and IT Security student. I enjoy coding, math, and learning.</p>
+                </div>
+            </div>
+
+            <!-- Video and Script -->
+            <div id="aboutvideo">
+                <h3>A Short Introductory Video</h3>
+                <video controls poster="thumbnail.png" preload="auto" autoplay loop muted id="myvideo">
+                    <source src="video.mp4" type="video/mp4">
+                </video>
+                <br>
+                <button onclick="VideoControls()">Play/Pause</button>
+                <script>
+                    var button=document.getElementById("myvideo");
+                    function VideoControls()
+                    {
+                        if(button.paused)
+                            button.play();
+                        else
+                            button.pause();
+                    }
+                </script>
+            </div>
+
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            
+            <!-- Contact & Copyright -->
+            <address>
+                <p>Contact me at <a href="mailto:johnathan.donnelly@ontariotechu.net">johnathan.donnelly@ontariotechu.net</a></p>
+            </address>
+            <p>© 2024 by Johnathan Donnelly</p>
+        </footer>
+
+    </div>
+</body>
+
+
+
+</html>
