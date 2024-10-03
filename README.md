@@ -4,10 +4,17 @@ Johnathan Donnelly • 100922051
 
 ## Versions
 
+* 0.2.0
+    * Completed CSS Styling
+
 * 0.1.0
     * Initial Commit
     * Completed HTML Structure
 
 ## Credits
-
-* N/A
+* [Basic Syntax](https://www.markdownguide.org/basic-syntax/)
+* [CSS Box Shadow](https://css-tricks.com/snippets/css/css-box-shadow/)
+* [CSS Comments](https://www.w3schools.com/css/css_comments.asp)
+* [CSS Flexbox Layout Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* [list-style-type](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type)
+* [text-decoration](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration)
