@@ -4,10 +4,19 @@ Johnathan Donnelly • 100922051
 
 ## Versions
 
-* 0.2.0
+* **0.4.0**
+    * Added (Compressed) Video and Picture
+    * Added Projects
+    * Updated Colours for Improved Accessibility
+    * Added Comments to CSS
+    * --------------- To Do ---------------
+    * Add Thumbnail/Poster to Video
+    * Add Comments to HTML
+
+* **0.2.0**
     * Completed CSS Styling
 
-* 0.1.0
+* **0.1.0**
     * Initial Commit
     * Completed HTML Structure
 
