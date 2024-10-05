@@ -4,14 +4,15 @@ Johnathan Donnelly • 100922051
 
 ## Versions
 
+* **0.4.1**
+    * Added Poster to Video
+        * Video No Longer Autoplays, Allowing User to See Poster
+
 * **0.4.0**
     * Added (Compressed) Video and Picture
     * Added Projects
     * Updated Colours for Improved Accessibility
     * Added Comments to CSS
-    * --------------- To Do ---------------
-    * Add Thumbnail/Poster to Video
-    * Add Comments to HTML
 
 * **0.2.0**
     * Completed CSS Styling
